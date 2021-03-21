@@ -1,1 +1,1 @@
-Fun CFD Personal Projects
+Fun CFD Projects
