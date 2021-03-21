@@ -1,7 +1,6 @@
 """
     Author: Irving Barroso
     Tittle: Intro to Finite Difference Approximation
-
 """
 
 # %% 
@@ -9,10 +8,6 @@ import matplotlib
 import numpy as np
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-
-# ----------------------------------------------------------------------
-#   Book: Fundamental of Computational Fluid Dynamics >>> Chapter: 3.0
-# ----------------------------------------------------------------------
 
 # Given Function
 def y(x):
@@ -40,10 +35,10 @@ def dy3(x, dx):
 
 def main():
 
-    # -------------------------------------------------
+    # --------------------------------------------------
     #                         Part I
-    # -------------------------------------------------
-    print('\nIntro to Finite Difference Approximation')
+    # --------------------------------------------------
+    print('\nIB CFD - Intro to Finite Difference Approximation')
     print('Function y = (x^3)*Sin(x)\n')
     x = 5
     dx1 = 0.5
